@@ -1,0 +1,29 @@
+# Build outputs
+build/
+dist/
+bin/
+out/
+
+# Compiled Lua bytecode
+*.luac
+
+# Lua package managers
+.rocks/
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*~
+
+# Local configuration
+config.local.*
+.env
